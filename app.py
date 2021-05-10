@@ -41,11 +41,6 @@ data1 = data1.loc['2020-01-01':]
 
 
 
-
-
-
-
-
 external_stylesheets = [
     {
         "href": "https://fonts.googleapis.com/css2?"
@@ -148,7 +143,7 @@ app.layout = html.Div(
                                     "x": data["Date"],
                                     "y": data["count"],
                                     "type": "lines",
-                                    "hovertemplate": "Rs :%{y:.2f*100}"
+                                    "hovertemplate": "Rs :%{y:.2f}"
                                                      "<extra></extra>",
                                 },
                             ],
