@@ -2,29 +2,6 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
-import numpy as np
-from dash.dependencies import Output, Input
-
-# data = pd.read_csv("avocado.csv")
-# data["Date"] = pd.to_datetime(data["Date"], format="%Y-%m-%d")
-# data.sort_values("Date", inplace=True)
-
-# Importing libraries used for the analysis
-import pandas as pd
-import numpy as np
-
-import plotly.offline as pyo
-import plotly.graph_objs as go
-
-# Using latest version of statsmodel 0.9.0 (otherwise get errors during SARIMAX fit)
-from statsmodels.tsa.arima_model import ARIMA
-import statsmodels.tsa.api as smt
-import statsmodels.api as sm
-
-from sklearn.metrics import mean_squared_error
-
-from matplotlib import pyplot as plt
-# %matplotlib inline
 
 import warnings
 
